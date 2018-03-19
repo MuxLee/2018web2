@@ -1,6 +1,7 @@
 *{margin: 0; paading: 0;}
-#wrap{  width: 100%;  height:auto;  margin: 0 auto;}
+#wrap{ width: 100%;  height: auto;  margin: 0 auto;}
 header{width: 100%;  height: 50px; background-color: #000;}
+section{width: 100%; height: 954px;}
 #a-tag{float: right; margin: 12.5px 10px 0px 0px;}
 a{text-decoration: none; color: white; margin-right: 15px;}
 span > a{color: red;}
