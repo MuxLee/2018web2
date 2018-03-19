@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+#wrap{width: 1000px; height: auto; margin: 0 auto;position: absolute;}
+li{margin: 12.5px 50px 0px 0px; float: right;}
+header{width: 1000px; height: 50px; background-color: #000;}
+#menu{float: right;}
+a{text-decoration: none; font-size: 15px; color: white; margin-top: -15px;}
+#main-img{width: 600px; height: 700px; float: left;}
+.twoimg{float: right;width: 400px; height: 350px;}
+#soloimg{width: 1000px; height: 400px;}
+footer{width: 1000px; height: 200px;}
