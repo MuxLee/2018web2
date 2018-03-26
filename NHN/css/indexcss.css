@@ -1,13 +1,15 @@
 *{margin: 0; paading: 0;}
-#wrap{ width: 100%;  height: auto;  margin: 0 auto;}
-header{width: 100%;  height: 50px; background-color: #000;}
+#wrap{width: 1300px; height: auto; margin: 0 auto;}
+header{width: 100%;  height: 50px; background-color: #000; padding-top: 20px;}
+#nhn-logo{margin-left: 10px;}
 section{width: 100%; height: 954px;}
-#a-tag{float: right; margin: 12.5px 10px 0px 0px;}
+#a-tag{float: right;}
 a{text-decoration: none; color: white; margin-right: 15px;}
 span > a{color: red;}
 #main-logo{width: 600px; height: 954px; float: left;}
-th{float: left;}
-#tb-size{font-size:30px; float: left;}
+th{text-align: left;}
+#tb-size{font-size:30px;text-align: left;}
 td{font-size: 14px;}
-table{border: 0px solid #000; width: 848px; height: auto; float: left;}
-.line{border-bottom: 1px solid red;}
+table{border: 0px solid #000; width: 700px; height: auto; float: left; text-align: left; padding: 10px 0px 5px 10px;}
+.line{border-bottom: 2px solid lightgray;}
+.line1{border-bottom: 2px solid gray; width: 80%;}
