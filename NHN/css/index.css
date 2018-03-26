@@ -12,4 +12,7 @@ a{text-decoration: none; font-size: 15px; color: white; margin-top: -15px;}
 footer{width: 1000px; height: 200px;}
 #table1{float: left;}
 table1, table2{width: 500px; height: 400px;}
-.screen{font-size: 13px;}
+#table2{float:right;}
+td{font-size: 12px; text-align: left;}
+.screen{font-size: 10px;}
+#footbox{clear:both;}
