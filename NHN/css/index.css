@@ -16,3 +16,4 @@ table1, table2{width: 500px; height: 400px;}
 td{font-size: 12px; text-align: left;}
 .screen{font-size: 10px;}
 #footbox{clear:both;}
+#plus{width: 50px; height: 10px; clear: both; margin: 2px, 2px, 2px, 2px;}
