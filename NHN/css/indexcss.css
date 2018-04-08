@@ -12,4 +12,4 @@ th{text-align: left;}
 td{font-size: 14px;}
 table{border: 0px solid #000; width: 700px; height: auto; float: left; text-align: left; padding: 10px 0px 5px 10px;}
 .line{border-bottom: 2px solid lightgray;}
-.line1{border-bottom: 2px solid gray; width: 80%;}
+.line1{border-bottom: 2px solid gray; width: 80%; margin-top: 10px;}
