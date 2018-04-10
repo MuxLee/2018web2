@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0;}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#wrap{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    width: 1000px;
+    height: 100px;
+    line-height: 50px;
+    display: block;
+    margin-top: 30px;
+}
+#form{
+    float: right;
+    height: 40px;
+}
+#form > li{
+    float: left;
+    list-style: none;
+}
+#form > li > button{
+    width: 66px;
+    height: 36px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #EFEFEF;
+}
+#form > li > input{
+    width: 164px;
+    height: 28px;
+    margin-left: 10px;
+    padding: 4px;
+    border: 1px solid #EFEFEF;
+}
+#search{
+    margin-top: -2px;
+}
+#find_logo{
+    margin-top: 7px;
+    width: 36px;
+    height: 36px;
+}
+#menu{
+    height: 44px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+#menu{
+    text-align: center;
+}
+#menu > li{
+    float: left;
+    width: 120px;
+    height: 44px;
+    list-style: none;
+}
+#menu > li > a{
+    color: black;
+    font-size: 14px;
+}
+#menu > li > ul{
+    width: 120px;
+    height: 0;
+    overflow: hidden;
+}
+#menu > li:hover > ul{
+    width: 120px;
+    height: 176px;
+    border: 1px solid gainsboro;
+    transition: all 0.5s;
+}
+#menu > li > ul > li{
+    widht: 120px;
+    height: 44px;
+    list-style: none;
+    font-size: 13px;
+}
+#menu > li > ul > li > a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
