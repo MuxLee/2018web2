@@ -72,7 +72,7 @@ header{
     width: 120px;
     height: 176px;
     border: 1px solid gainsboro;
-    transition: all 0.5s;
+    transition: all 0.4s;
 }
 #menu > li > ul > li{
     widht: 120px;
