@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Seoul Digitech High School</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
 <div id="wrap">
@@ -19,7 +21,7 @@
         </ul>
         <ul id="menu">
             <li><a href="#">학교소개</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">학교장 인사말</a></li>
                     <li><a href="#">학교소개</a></li>
                     <li><a href="#">교육목표</a></li>
@@ -27,48 +29,48 @@
                 </ul>
             </li>
             <li><a href="#">알림마당</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">공지사항</a></li>
                     <li><a href="#">가정통신문</a></li>
                     <li><a href="#">일정달력</a></li>
                     <li><a href="#">글로벌활동</a></li>
                 </ul>
             <li><a href="#">입학안내</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">입학안내</a></li>
                     <li><a href="#">입학문의 및 자료</a></li>
                     <li><a href="#">학과소개</a></li>
                     <li><a href="#">교복안내</a></li>
                 </ul></li>
             <li><a href="#">학생마당</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">학습자료실</a></li>
                     <li><a href="#">학생회소개</a></li>
                     <li><a href="#">방과후활동</a></li>
                     <li><a href="#">학생작품</a></li>
                 </ul></li>
             <li><a href="#">열린마당</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">선생님들께</a></li>
                     <li><a href="#">취업게시판</a></li>
                     <li><a href="#">진학게시판</a></li>
                     <li><a href="#">자유게시판</a></li>
                 </ul></li>
             <li><a href="#">행정공개</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">학교운영위원회</a></li>
                     <li><a href="#">행정정보공개</a></li>
                     <li><a href="#">교사게시판</a></li>
                     <li><a href="#">행정소식</a></li>
                 </ul></li>
             <li><a href="#">학교평가</a>
-                <ul>
+                <ul id="drop">
                     <li><a href="#">2015학년도</a></li>
                     <li><a href="#">2016학년도</a></li>
                     <li><a href="#">2017학년도</a></li>
                 </ul></li>
             <li><a href="#">교사미니홈피</a>
-                <ul>
+                <ul class="down">
                     <li><a href="#">김순상</a></li>
                     <li><a href="#">문서현</a></li>
                     <li><a href="#">박선갑</a></li>
@@ -80,11 +82,16 @@
                 </ul></li>
         </ul>
     </header>
-    <div>
-        <div id="img">
-        </div>
-    </div
 
+    <div id="content">
+        <div id="slide_box">
+            <ul id="slide">
+                <li><img src="img/music.jpg"></li>
+                <li><img src="img/digitech.jpg"></li>
+                <li><img src="img/digiclass.jpg"></li>
+            </ul>
+        </div>
+    </div>
 </div>
 </body>
 </html>
