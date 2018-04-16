@@ -46,12 +46,14 @@ header{
     height: 36px;
 }
 #menu{
+    width: 960px;
     height: 44px;
+    text-align: center;
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
-}
-#menu{
-    text-align: center;
+    position: relative;
+    z-index: 99;
+    margin: 0 auto;
 }
 #menu > li{
     float: left;
@@ -68,17 +70,25 @@ header{
     height: 0;
     overflow: hidden;
 }
-#menu > li:hover > ul{
+#menu > li:hover > .down{
     width: 120px;
     height: 176px;
     border: 1px solid gainsboro;
-    transition: all 0.4s;
+    transition: all 0.5s;
+}
+#menu > li:hover > #drop{
+    width: 120px;
+    height: 132px;
+    border: 1px solid gainsboro;
+    transition: all 0.5s;
 }
 #menu > li > ul > li{
-    widht: 120px;
+    width: 120px;
     height: 44px;
     list-style: none;
     font-size: 13px;
+    background-color: white;
+    z-index: 99;
 }
 #menu > li > ul > li > a{
     color: black;
@@ -86,3 +96,27 @@ header{
 a{
     text-decoration: none;
 }
+#content{
+    width: 1000px;
+    height: 1000px;
+    margin-top: 10px;
+
+}
+#slide_box{
+    width: 950px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#slide_box > #slide{
+    width: 2850px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+#slide_box > #slide > li{
+    display: inline-block;
+}
+
