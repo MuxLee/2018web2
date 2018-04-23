@@ -95,28 +95,66 @@ header{
 }
 a{
     text-decoration: none;
+    color: #000;
 }
 #content{
     width: 1000px;
-    height: 1000px;
+    height: 1050px;
     margin-top: 10px;
-
 }
-#slide_box{
-    width: 950px;
+#slide{
+    width: 100%;
+}
+#slide > li{
+    width: 1000px;
     height: 450px;
-    position: relative;
-    overflow: hidden;
+    list-style: none;
+    text-align: center;
+}
+#slide > li > img{
+    width: 1000px;
+    height: 450px;
+}
+#tb_size{
+    width: 1000px;
+    height: 200px;
+}
+.table_box{
+    width: 500px;
+    height: 200px;
+    float: left;
+    border: 4px solid #fff1e5;
+    font-size: 13px;
+}
+.th_font{
+    font-size: 20px;
+    text-align: left;
+}
+.td_btn{
+    float: right;
+    margin-right: 10px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+}
+#sub_con{
+    width: 1000px;
+    height: 400px;
+    background-color: #fff1e5;
+}
+#sub_con > img{
+    width: 390px;
+    height: 400px;
+}
+
+#sub_con > iframe{
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+footer{
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
 }
-#slide_box > #slide{
-    width: 2850px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 0;
-}
-#slide_box > #slide > li{
-    display: inline-block;
-}
-
