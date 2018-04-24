@@ -1,0 +1,146 @@
+*{margin: 0; padding: 0;}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#wrap{
+    width: 1348px;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    width: 1348px;
+    height: 70px;
+    background-color: #000;
+    position: fixed;
+}
+#head > a > img{
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 240px;
+    height: 50px;
+}
+#head > ul{
+    list-style: none;
+    float: right;
+}
+#head > ul > li{
+    float: left;
+    font-size: 17px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+#head > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+#head > ul > li > #font-red{
+    color: red;
+}
+#container{
+    width: 1348px;
+    height: 1000px;
+    padding-top: 70px;
+}
+#container > img{
+    width: 650px;
+    height: 950px;
+    float: left;
+}
+#container > table{
+    width: 698px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#th-name{
+    font-size: 30px;
+    width: 648px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#b-imf, #s-imf{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid;
+}
+#b-imf{
+    background-color: #ff9ba1;
+    margin-left: 10px;
+}
+#b-imf:hover{
+    background-color: black;
+    color: white;
+}
+#s-imf{
+    background-color: #82d2ff;
+    margin-right: 10px;
+}
+#s-imf:hover{
+    background-color: black;
+    color: white;
+}
+#list-tb {
+    width: 648px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+button{
+    width: 45px;
+    height: 20px;
+    font-size: 10px;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+}
+.btn1{
+    background-color: #ff9ba1;
+}
+.btn2{
+    background-color: #82d2ff;
+}
+.td-size{
+    width: 45px;
+    height: 20px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.tb-line{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.c-1{
+    padding-top: 10px;
+}
+#size1{
+    width: 350px;
+    text-align: center;
+}
+#size2{
+    width: 30px;
+    text-align: center;
+}
+#size3{
+    width: 60px;
+    text-align: center;
+}
+#size4{
+    width: 155px;
+    text-align: center;
+}
+#size5{
+    width: 145px;
+}
+#page-btn{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
