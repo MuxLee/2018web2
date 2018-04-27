@@ -16,20 +16,20 @@ html, body{
     z-index: 999;
     border-radius: 10px 10px 10px;
     border: 1px solid gainsboro;
-    background-color: #626674;
+    background-color: #000;
     text-align: center;
 }
 #tag{
     width: 450px;
     height: 400px;
-    background-color: #000;
-    border-radius: 100px 100px 100px;
+    background-color: white;
+    border-radius: 10px 10px 10px;
     margin: 0 auto;
 }
 h1{
     font-size: 70px;
     margin-bottom: 50px;
-    color: white;
+    color: #000;
 }
 .pop-div{
     padding-top: 50px;
@@ -37,7 +37,8 @@ h1{
 .item_id{
     width: 400px;
     overflow: hidden;
-    color: white;
+    color: #000;
+    font-weight: bold;
 }
 .item_id dt{
     float: left;
@@ -48,7 +49,8 @@ h1{
 .item_pw{
     overflow: hidden;
     margin-top: 25px;
-    color: white;
+    color: #000;
+    font-weight: bold;
 }
 .item_pw dt{
     float: left;
@@ -96,7 +98,8 @@ dt {
 }
 #sign_ok{
     margin-top: 30px;
-    border-radius: 10px 10px 10px;
+    border-radius: 5px 5px 5px;
+    border: 1px solid #000;
     width: 50px;
     height: 50px;
     background-color: white;
