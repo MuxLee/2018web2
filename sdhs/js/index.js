@@ -12,6 +12,14 @@ $(document).ready(function () {
         $(img[count]).animate({"left": "0"});
     }
      */
+    $('.login').click(function () {
+        var left=($(window).scrollLeft() + ($(window).width() - $('.popup').width()) / 2);
+        var top=($(window).scrollTop() + ($(window).height() - $('.popup').height()) / 2);
+
+        $('.popup').css({'left':left,'top':top,'position':'absolute'});
+        $('.popup').show();
+
+    })
 
     setInterval(function () {
         if($(img[count]).is(":animated"))return;
