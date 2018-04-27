@@ -162,14 +162,14 @@ a{
     background-color: #fff1e5;
 }
 #sub_con > img{
-    width: 390px;
+    width: 380px;
     height: 400px;
-    float: left;
+    float: right;
 }
 #sub_con > iframe{
     width: 580px;
     height: 400px;
-    float: right;
+    float: left;
 }
 footer{
     margin-top: 50px;
@@ -186,7 +186,7 @@ footer{
     padding-top: 15px;
     margin: 0 auto;
 }
-#img_tb > tr > td, img{
+#img_tb > tr > td, .icon{
     width: 130px;
     height: 40px;
     margin-right: 30px;
