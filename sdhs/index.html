@@ -3,21 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Seoul Digitech High School</title>
-    <link rel="stylesheet" href="css/index.css?ver=2">
+    <link rel="stylesheet" href="css/index.css?ver=3">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </head>
 <body>
 <div id="wrap">
+    <div class="popup">
+        <div class="pop-div">
+            <div id="tag">
+                <h1>로그인</h1>
+                <div id="sign_wrap">
+                    <form action="index.html" method="post">
+                        <dl class="item_id">
+                            <dt><label for="id">ID</label></dt>
+                            <dd><input type="text" id="id" name="id" class="in"></dd>
+                        </dl>
+                        <dl class="item_pw">
+                            <dt><label for="password">PW</label></dt>
+                            <dd><input type="password" id="password" name="password" class="in"></dd>
+                        </dl>
+                        <button type="submit" id="sign_ok">확인</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
-        <a href="#"><img src="img/sdhslogo.jpg" id="header_logo"></a>
+        <a href="#"><img src="img/sdhslogo.jpg" id="header_logo" alt="header_img"></a>
         <ul id="form">
-            <li><button type="submit">사이트맵</button></li>
-            <li><button type="submit">홈</button></li>
-            <li><button type="submit">로그인</button></li>
+            <li><button type="button">사이트맵</button></li>
+            <li><button type="button">홈</button></li>
+            <li><button type="button" class="login">로그인</button></li>
             <li><button type="submit">회원가입</button></li>
             <li id="search"><input type="text"></li>
-            <li id="find_logo"><a href="#"><img src="img/searchicon.gif"></a></li>
+            <li id="find_logo"><a href="#"><img src="img/searchicon.gif" alt="search_img"></a></li>
         </ul>
         <ul id="menu">
             <li><a href="#">학교소개</a>
@@ -86,9 +106,9 @@
     <div id="content">
         <ul id="slide">
             <li>
-                <img src="img/digitech.jpg">
-                <img src="img/music.jpg">
-                <img src="img/digiclass.jpg">
+                <img src="img/digitech.jpg" alt="digitech_img">
+                <img src="img/music.jpg" alt="musci_img">
+                <img src="img/digiclass.jpg" alt="digiclass_img">
             </li>
         </ul>
 
@@ -150,7 +170,7 @@
 
         <div id="sub_con">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5320.707882900615!2d126.98933166086785!3d37.538289602243104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca24eb401c3c3%3A0xcac6c402eb3ae54f!2z7ISc7Jq465SU7KeA7YWN6rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1524446409651" width="580" height="400" allowfullscreen></iframe>
-            <img src="img/goodschool.jpg">
+            <img src="img/goodschool.jpg" alt="goodschool_img">
         </div>
     </div>
 
@@ -158,18 +178,18 @@
         <div id="outline">
             <table id="img_tb">
                 <tr>
-                    <td><img src="img/youth.jpg" class="icon"></td>
-                    <td><img src="img/internetall.jpg" class="icon"></td>
-                    <td><img src="img/onuli.jpg" class="icon"></td>
-                    <td><img src="img/schoolarlim.jpg" class="icon"></td>
-                    <td><img src="img/seoularim.jpg" class="icon"></td>
-                    <td><img src="img/ssme.jpg" class="icon"></td>
+                    <td><img src="img/youth.jpg" class="icon" alt="youth_img"></td>
+                    <td><img src="img/internetall.jpg" class="icon" alt="internetall_img"></td>
+                    <td><img src="img/onuli.jpg" class="icon" alt="onuli_img"></td>
+                    <td><img src="img/schoolarlim.jpg" class="icon" alt="schoolarlim_img"></td>
+                    <td><img src="img/seoularim.jpg" class="icon" alt="seoularim_img"></td>
+                    <td><img src="img/ssme.jpg" class="icon" alt="ssme_img"></td>
                 </tr>
             </table>
         </div>
 
         <div id="last_foot">
-            <img src="img/sdhslogo.jpg">
+            <img src="img/sdhslogo.jpg" alt="sdhslogo_img">
             <table id="imf">
                 <tr class="r-line">
                     <td class="d-line" id="d-color"><a href="#">개인정보처리방침</a></td>
