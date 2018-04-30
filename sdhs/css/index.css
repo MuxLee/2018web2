@@ -8,15 +8,23 @@ html, body{
     height: auto;
     margin: 0 auto;
 }
+#popup_mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: #000;
+    display: none;
+}
 .popup{
     width: 500px;
     height: 500px;
     position: fixed;
     display: none;
-    z-index: 999;
+    z-index: 99999;
     border-radius: 10px 10px 10px;
     border: 1px solid gainsboro;
-    background-color: #000;
+    background-color: gainsboro;
     text-align: center;
 }
 #tag{
@@ -24,10 +32,12 @@ html, body{
     height: 400px;
     background-color: white;
     border-radius: 10px 10px 10px;
+    border: 1px solid black;
     margin: 0 auto;
 }
 h1{
-    font-size: 70px;
+    font-size: 50px;
+    padding-top: 20px;
     margin-bottom: 50px;
     color: #000;
 }
@@ -91,7 +101,7 @@ dt {
     width: 220px;
     height: 50px;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .in:focus{
     outline: none;
@@ -173,6 +183,9 @@ header{
     color: black;
     font-size: 14px;
 }
+#menu > li > a:hover{
+    color: red;
+}
 #menu > li > ul{
     width: 120px;
     height: 0;
@@ -181,12 +194,6 @@ header{
 #menu > li:hover > .down{
     width: 120px;
     height: 176px;
-    border: 1px solid gainsboro;
-    transition: all 0.5s;
-}
-#menu > li:hover > #drop{
-    width: 120px;
-    height: 132px;
     border: 1px solid gainsboro;
     transition: all 0.5s;
 }
@@ -200,6 +207,9 @@ header{
 }
 #menu > li > ul > li > a{
     color: black;
+}
+#menu > li > ul > li > a:hover{
+    color: blue;
 }
 a{
     text-decoration: none;
