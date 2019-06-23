@@ -1,0 +1,44 @@
+﻿[Image Slide] - JavaScript, Jquery
+
+var cnt = 0;
+var img = $('.slide_image');
+
+$(document).ready(function () {
+  var len = document.getElementsByClassName("slide_image").length-1;
+  setInterval(function () {
+
+    $('.slide_image').animate({
+      left: '-=100%'
+    });
+    $('.slide_image').css("z-index", "6");
+    $('#slide'+cnt).css("z-index", "5");
+    $('#slide'+cnt).animate({
+      left: "200%"
+    });
+    if (cnt >= len) cnt = 0;
+    else cnt++;
+
+  }, 3000);
+
+});
+
+===============================================
+
+[Image fadeIn, fadeOut] - Javascript, Jquery
+
+var cnt = 0;
+var img = $('.slide_image');
+
+$(document).ready(function () {
+  var len = document.getElementsByClassName("slide_image").length-1;
+  setInterval(function () {
+    console.log(cnt);
+    $('#slide'+cnt).fadeOut(800);
+    cnt++;
+    $('#slide'+cnt).fadeIn(800);
+    if (cnt > len) {
+      cnt = 0;
+      $('#slide'+cnt).fadeIn(800);
+    };
+  }, 3000);
+});
